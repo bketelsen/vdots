@@ -8,7 +8,10 @@
         pkgs.fzf
         pkgs.lazygit
         pkgs.ripgrep
+        pkgs.jq
     ];
+    programs.bash.enable = true;
+    programs.bash.profileExtra = ". /home/bjk/.nix-profile/etc/profile.d/nix.sh";
     programs.direnv.enable = true;
     programs.starship.enable = true;
     services.syncthing.enable = true;
