@@ -4,12 +4,12 @@
     home.packages = [
         pkgs.nixfmt
 	    pkgs.neovim
-        pkgs.cowsay
         pkgs.fzf
         pkgs.lazygit
         pkgs.ripgrep
         pkgs.jq
         pkgs.dive
+        pkgs.blackbox-terminal
     ];
     programs.bash = {
         enable = true;
