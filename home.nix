@@ -2,14 +2,13 @@
     home.username = "bjk";
     home.homeDirectory = "/home/bjk";
     home.packages = [
-        pkgs.nixfmt
-	    pkgs.neovim
-        pkgs.fzf
-        pkgs.lazygit
-        pkgs.ripgrep
-        pkgs.jq
-        pkgs.dive
-        pkgs.blackbox-terminal
+	pkgs.nixfmt
+	pkgs.neovim
+	pkgs.fzf
+	pkgs.lazygit
+	pkgs.ripgrep
+	pkgs.jq
+	pkgs.dive
     ];
     programs.bash = {
         enable = true;
