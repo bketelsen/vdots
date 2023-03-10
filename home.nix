@@ -9,6 +9,8 @@
 	pkgs.ripgrep
 	pkgs.jq
 	pkgs.dive
+	pkgs.htop
+	pkgs.yq
     ];
     programs.bash = {
         enable = true;
