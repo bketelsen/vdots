@@ -11,6 +11,7 @@
 	pkgs.dive
 	pkgs.htop
 	pkgs.yq
+	pkgs.vscode
     ];
     programs.bash = {
         enable = true;
