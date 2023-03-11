@@ -11,6 +11,8 @@
 
     outputs = {nixpkgs, home-manager, ...}: {
         defaultPackage.x86_64-linux = home-manager.defaultPackage.x86_64-linux;
+	home-manager.useGlobalPkgs = true;
+	nixpkgs.config.allowUnfree = true;
         homeConfigurations = {
             "bjk" = home-manager.lib.homeManagerConfiguration {
                 # Note: I am sure this could be done better with flake-utils or something
