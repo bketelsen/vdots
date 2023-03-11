@@ -1,5 +1,7 @@
 {pkgs, misc,...}: {
-	nixpkgs.config.allowUnfree = true;
+nixpkgs.config = {
+  allowUnfree = true;
+}
     home.username = "bjk";
     home.homeDirectory = "/home/bjk";
     home.packages = [
