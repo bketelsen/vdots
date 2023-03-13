@@ -37,6 +37,7 @@
     pkgs.gnumake
     pkgs.gcc
     pkgs.statix
+    pkgs.rustup
   ];
   programs.bash = {
     enable = true;
