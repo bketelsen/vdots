@@ -34,7 +34,7 @@
     pkgs.yq
     pkgs.vscode
     pkgs.go_1_20
-    pkgs.make
+    pkgs.gnumake
     pkgs.gcc
   ];
   programs.bash = {
