@@ -33,6 +33,7 @@
     pkgs.htop
     pkgs.yq
     pkgs.vscode
+    pkgs.go_1_20
   ];
   programs.bash = {
     enable = true;
