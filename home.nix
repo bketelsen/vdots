@@ -36,6 +36,7 @@
     pkgs.go_1_20
     pkgs.gnumake
     pkgs.gcc
+    pkgs.statix
   ];
   programs.bash = {
     enable = true;
