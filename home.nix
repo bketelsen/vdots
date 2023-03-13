@@ -34,6 +34,8 @@
     pkgs.yq
     pkgs.vscode
     pkgs.go_1_20
+    pkgs.make
+    pkgs.gcc
   ];
   programs.bash = {
     enable = true;
