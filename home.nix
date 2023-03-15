@@ -62,7 +62,7 @@
     npu = "export NIXPKGS_ALLOW_UNFREE=1; nix profile upgrade --impure '.*'";
     hmh = "home-manager-help";
     vdots = "cd ~/vdots";
-    vblue = "cd ~/projects/vanillaos/vblue";
+    bluefin = "cd ~/projects/ublue/bluefin";
   };
   home.sessionPath = [ "$HOME/bin" "$HOME/.local/bin" ];
   gtk.theme = {
